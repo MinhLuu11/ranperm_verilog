@@ -17,7 +17,7 @@ module random_index #(
             for (i = 0; i < N; i = i + 1) begin
                 array[i] <= i;
             end
-            lfsr <= 32'hACE1; 
+            lfsr <= 32'hABCD; 
             done <= 0;
         end else if (enable) begin
             if (!done) begin
