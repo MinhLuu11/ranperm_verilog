@@ -1,3 +1,4 @@
+`timescale 1ns/1ns
 module random_index #(
     parameter N = 100 
 ) (
